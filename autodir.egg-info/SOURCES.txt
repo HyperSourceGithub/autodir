@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autodir/__init__.py
+autodir/autodir.py
+autodir.egg-info/PKG-INFO
+autodir.egg-info/SOURCES.txt
+autodir.egg-info/dependency_links.txt
+autodir.egg-info/requires.txt
+autodir.egg-info/top_level.txt
+tests/test_autodir.py
