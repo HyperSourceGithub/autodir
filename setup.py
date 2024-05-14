@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name="autodir",
     packages=find_packages(include=['autodir']),
-    version="1.0.0",
+    version="1.1.0",
     description="Automatically switch directories, simply.",
     author="HyperSource",
     install_requires=['pathlib'],
