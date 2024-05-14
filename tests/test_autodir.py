@@ -1,5 +1,6 @@
 from autodir import autodir
 
 def test():
-    autodir.switch("detailed")
-    
+    autodir.switch(1)
+
+test()
