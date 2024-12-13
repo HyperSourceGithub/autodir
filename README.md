@@ -1,14 +1,14 @@
 # AutoDir
 `[for python3]`
 
-A python library to automatically switch directories to the parent folder of the code.
+A python library to automatically switch the working directory to the parent folder of the code you're running. No more `cd` continuously!
 
-## Example Uses:
-Code:
-`main.py`
-```python
-image = "assets/image.png"
+## Usage
+```py
+switch(output=False)
 ```
-If your current working directory is not the same as the parent folder of this code, your code will not work. 
-
-This library fixes that, in a simple way.
+Switches the working directory to the parent folder in the code.
+### Parameters
+`output` = `True/False/None` <br />
+    -> `True`: prints output (current directory, parent directory of code, then current directory again after changing) <br />
+    -> `False/None`: does not print any output.
